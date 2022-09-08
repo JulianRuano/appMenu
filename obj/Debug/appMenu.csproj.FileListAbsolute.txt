@@ -1,0 +1,11 @@
+C:\Users\Julian_Banano\Documents\Main\obj\Debug\appMenu.csproj.AssemblyReference.cache
+C:\Users\Julian_Banano\Documents\Main\obj\Debug\appMenu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Julian_Banano\Documents\Main\obj\Debug\appMenu.csproj.CoreCompileInputs.cache
+C:\Users\Julian_Banano\Documents\Main\bin\Debug\Main.exe.config
+C:\Users\Julian_Banano\Documents\Main\bin\Debug\Main.exe
+C:\Users\Julian_Banano\Documents\Main\bin\Debug\Main.pdb
+C:\Users\Julian_Banano\Documents\Main\bin\Debug\libServicios.dll
+C:\Users\Julian_Banano\Documents\Main\bin\Debug\libServicios.pdb
+C:\Users\Julian_Banano\Documents\Main\obj\Debug\appMenu.csproj.CopyComplete
+C:\Users\Julian_Banano\Documents\Main\obj\Debug\Main.exe
+C:\Users\Julian_Banano\Documents\Main\obj\Debug\Main.pdb

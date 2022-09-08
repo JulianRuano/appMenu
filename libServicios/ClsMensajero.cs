@@ -1,8 +1,10 @@
-﻿namespace Servicios
+﻿
+
+namespace Servicios
 {
-    public class clsMensajero
+     public class ClsMensajero
     {
-        public static string atrMensajero;
+        protected static string atrMensajero;
         protected static string auxMensaje;
 
         public static string darMensaje()
@@ -11,8 +13,6 @@
             atrMensajero = null;
             return auxMensaje;
 
-        }
-
-
+        }     
     }
 }

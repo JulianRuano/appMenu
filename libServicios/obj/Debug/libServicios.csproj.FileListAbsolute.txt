@@ -1,0 +1,12 @@
+E:\C#\Libreria\libServicios\bin\Debug\libServicios.dll
+E:\C#\Libreria\libServicios\bin\Debug\libServicios.pdb
+E:\C#\Libreria\libServicios\obj\Debug\libServicios.csprojAssemblyReference.cache
+E:\C#\Libreria\libServicios\obj\Debug\libServicios.dll
+E:\C#\Libreria\libServicios\obj\Debug\libServicios.pdb
+E:\C#\Libreria\libServicios\obj\Debug\libServicios.csproj.CoreCompileInputs.cache
+C:\Users\Julian_Banano\Documents\Main\libServicios\bin\Debug\libServicios.dll
+C:\Users\Julian_Banano\Documents\Main\libServicios\bin\Debug\libServicios.pdb
+C:\Users\Julian_Banano\Documents\Main\libServicios\obj\Debug\libServicios.csproj.AssemblyReference.cache
+C:\Users\Julian_Banano\Documents\Main\libServicios\obj\Debug\libServicios.csproj.CoreCompileInputs.cache
+C:\Users\Julian_Banano\Documents\Main\libServicios\obj\Debug\libServicios.dll
+C:\Users\Julian_Banano\Documents\Main\libServicios\obj\Debug\libServicios.pdb

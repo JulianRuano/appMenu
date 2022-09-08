@@ -3,33 +3,33 @@
 
 namespace Servicios
 {
-    public class clsConsola
+    public class ClsConsola 
     {
         public static void EsperarTecla()
         {
             Console.ReadKey();
         }
-        public static void Escribir<Tipo>(Tipo prmContenido)
+        public static void Escribir<Tipo>(Tipo prmContenido) 
         {
             Console.Write(prmContenido);
         }
         public static void EscribirEncabezado(string prmTexto)
         {
-            EscribirSaltarLinea("----------------------------------------------------------------------");
+            EscribirSaltarLinea("------------------------------");
             EscribirSaltarLinea(prmTexto);
-            EscribirSaltarLinea("----------------------------------------------------------------------");
+            EscribirSaltarLinea("------------------------------");
         }
         public static string Leer()
         {
             return Console.ReadLine();
         }
-
+       
         public static void Pausa(string prmTexto)
         {
-            EscribirEncabezado(prmTexto);
+            EscribirSaltarLinea(prmTexto);
             EsperarTecla();
         }
-
+       
         public static void LimpiarPantalla()
         {
             Console.Clear();
@@ -37,29 +37,6 @@ namespace Servicios
         public static void EscribirSaltarLinea<Tipo>(Tipo prmContenido)
         {
             Console.WriteLine(prmContenido);
-        }
-        public static Tipo Leer<Tipo>(string prmEtiqueta, ref Tipo prmDato)
-        {
-
-            int varValido = 0;
-            do
-            {
-                Escribir(prmEtiqueta);
-                varValido = 0;
-                try
-                {
-                    prmDato = (Tipo)(Convert.ChangeType(Console.ReadLine(), typeof(Tipo)));
-                }
-                catch (Exception)
-                {
-                    EscribirSaltarLinea("Error");
-                    varValido = 1;
-                }
-
-            } while (varValido == 1);
-
-            return prmDato;
-
         }
 
         public static Tipo Leer<Tipo>(string prmEtiqueta)
@@ -76,8 +53,8 @@ namespace Servicios
                     EscribirEncabezado("ERROR: " + e.Message);
                 }
             } while (true);
-
+   
         }
-
+      
     }
 }

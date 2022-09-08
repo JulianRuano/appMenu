@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main.csproj", "{72E46C2A-A6FA-4B65-8225-BFB87969FA99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appMenu", "appMenu.csproj", "{72E46C2A-A6FA-4B65-8225-BFB87969FA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libServicios", "libServicios\libServicios.csproj", "{7D90C238-555A-48EF-86D4-67485F178865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{72E46C2A-A6FA-4B65-8225-BFB87969FA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E46C2A-A6FA-4B65-8225-BFB87969FA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E46C2A-A6FA-4B65-8225-BFB87969FA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D90C238-555A-48EF-86D4-67485F178865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D90C238-555A-48EF-86D4-67485F178865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D90C238-555A-48EF-86D4-67485F178865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D90C238-555A-48EF-86D4-67485F178865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

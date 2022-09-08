@@ -58,7 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="main\ClsMenu.cs" />
+    <Compile Include="menu\ClsMenu.cs" />
+    <Compile Include="menu\ClsMnuEvento1.cs" />
+    <Compile Include="menu\ClsMnuPrincipal.cs" />
     <Compile Include="test\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -77,6 +79,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="libServicios\libServicios.csproj">
+      <Project>{7d90c238-555a-48ef-86d4-67485f178865}</Project>
+      <Name>libServicios</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
